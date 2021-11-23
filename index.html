@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Style Custom -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- Fontes-->
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+
+</head>
+<body id="daily">
+
+    <div id="container">
+
+      <div id="cont-jer"> <!-- Jeremy card-->
+
+          <div id="jeremy">
+            <div id="img-jer">  <img alt="foto jeremy" src="images/image-jeremy.png"></div>
+
+              <div id="name">
+                <p class="report"> Report for</p>
+                <h1 class="jeremy">Jeremy Robson</h1>
+              </div>
+          </div>
+              <ul>
+                <li><button><a class="daily" href="index.html">Daily</a> </button></li>
+                <li><button><a href="weekly.html"> Weekly</a></button></li>
+                <li> <button><a href="monthly.html">Monthly</a> </button></li>
+              </ul>
+      </div><!-- Fim Jeremy Card-->
+
+        <div id="cont-cards"><!-- inicio Cards-->
+
+          <div id="cont-work"  class="cards"><!-- Work Card-->
+
+            <div id="work"  class="int-card"><!--work-->
+              <div class="name-cards"><h1>Work </h1><span> ... </span></div>
+
+              <div class="info-cards">
+                  <h2>5hrs</h2> <!-- daily -->
+                  <p>Last Day - 7hrs</p> <!-- daily -->
+              </div>
+             
+            </div>
+          </div><!-- fim Work--> 
+
+          <div id="cont-play" class="cards"><!-- Play Card-->
+            <div id="play" class="int-card">
+              <div class="name-cards"><h1>Play </h1><span> ... </span></div>
+
+              <div class="info-cards">
+                <h2>1hr</h2> <!-- daily -->
+                <p>Last Day  - 2hrs</p><!-- daily -->
+              </div>
+             
+            </div>
+          </div><!-- fim Play--> 
+
+          <div id="cont-study" class="cards"><!-- Study Card-->
+            <div id="study" class="int-card">
+              <div class="name-cards"><h1>Study </h1><span> ... </span></div>
+
+              <div class="info-cards">
+                <h2>0hrs</h2> <!-- daily -->
+                <p>Last Day  - 1hr</p> <!-- daily -->
+              </div>
+             
+            </div>
+          </div><!-- fim Study--> 
+
+          <div id="cont-ex" class="cards"><!-- Exercise Card-->
+            <div id="exercise" class="int-card">
+              <div class="name-cards"><h1>Exercise </h1><span> ... </span></div>
+
+              <div class="info-cards">
+                <h2>1hr</h2><!-- daily -->
+                <p>Last Day  - 1hr</p> <!-- daily -->
+              </div>
+              
+            </div>
+          </div><!-- fim Exercise--> 
+
+          <div id="cont-soc" class="cards"><!-- Social Card-->
+            <div id="social" class="int-card">
+             <div class="name-cards"><h1>Social </h1><span> ... </span></div>
+
+              <div class="info-cards">
+                <h2>1hr</h2> <!-- daily -->
+                <p>Last Day  - 3hrs</p> <!-- daily -->
+              </div>
+              
+            </div>
+          </div><!-- fim Social--> 
+
+          <div id="cont-self" class="cards"><!--Self Card-->
+            <div id="self" class="int-card">
+             <div class="name-cards"><h1>Self Care </h1><span> ... </span></div>
+
+             <div class="info-cards">
+              <h2>0hrs</h2> <!-- daily -->
+              <p>Last Day  - 1hr</p> <!-- daily -->
+              </div>
+              
+            </div>
+          </div> <!-- fim self--> 
+        </div><!-- fim cards -->
+    </div><!--fim container-->
+
+    
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Giuliano Garcia</a>.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,235 @@
+html,body{
+	margin:0;
+	padding:0;
+	font-size: 18px; 
+	color:white;
+	font-family: "Rubik",sans-serif;
+	letter-spacing: 2px;
+}
+
+#container{
+	margin: 15px auto;
+	width: 1440px;
+	padding:150px 80px;
+	background: black;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+/* Jeremy card
+-----------------*/
+
+
+#cont-jer{
+	/*border:2px solid white;*/
+
+	width: 272px;
+	height: 550px;
+	border-radius: 30px;
+	background-color: hsl(235, 46%, 20%);
+	margin-right: 30px;
+	 
+
+}
+#name {
+	margin-top: 40px;
+}
+#name .report {
+	font-size: 0.8em;
+	margin-bottom: 5px;
+	color:hsl(236, 100%, 87%);
+	font-weight:bold;
+
+
+}
+#cont-jer h1{
+	font-size: 2em;
+	font-weight:300;
+	margin-top: 0px;
+
+}
+#jeremy{
+	/*border:2px solid red;*/
+	padding:30px;
+	width: 270px;
+	height: 380px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	background-color:  hsl(246, 80%, 60%); 
+
+}
+#jeremy img{
+	width: 80px;
+	
+	margin-top: 35px;
+	border: 3px solid white;
+	border-radius: 60px;
+}
+
+
+/* Nav
+--------*/
+#cont-jer ul{
+	list-style: none;
+}
+
+#cont-jer ul li{
+	background: none;
+	border:none;
+	margin-bottom: 20px;
+}
+#cont-jer li button{
+	font-size: 1em;
+	color:white;
+	background: none;
+	border:none;
+	cursor: pointer;
+}
+#cont-jer li a{
+	text-decoration: none;
+	color: white;
+}
+#daily a.daily{
+	color: hsl(236, 100%, 87%);
+}
+#weekly a.weekly{
+	color: hsl(236, 100%, 87%);
+}
+#monthly a.monthly{
+	color: hsl(236, 100%, 87%);
+}
+
+
+/* Cards gral
+------------*/
+#cont-cards{
+	
+	width:860px; 
+	height: 550px;
+	
+	display: flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	justify-content: space-between;
+
+}
+#cont-cards .cards{
+	
+	border-radius: 30px;
+	width: 260px;
+	height: 260px;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items:center;
+	
+}
+
+
+
+#cont-cards .int-card{
+	
+	width: 260px;
+	height: 80%;
+	border-radius: 30px;
+	background-color: hsl(235, 46%, 20%);
+
+}
+#cont-cards .int-card:hover{
+	background-color: hsl(235, 45%, 61%);
+	cursor: pointer; 
+}
+#cont-cards .name-cards h1{
+	font-size: 1em;
+	
+	
+
+}
+#cont-cards .name-cards span{
+	color:hsl(236, 100%, 87%);
+	font-size: 2.5em;
+
+	
+}
+  /* ---- Cabecalho Cards ---*/
+#cont-cards .name-cards{
+	
+	width: 100%;
+	height: 80px;
+	
+	padding:0 20px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+/*------ Info Cards -----*/
+#cont-cards .info-cards{
+
+	padding-left: 15px;
+	padding-top:0;
+	letter-spacing: 2px;
+
+
+}
+#cont-cards .info-cards h2{
+	font-size:3em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-weight: 200;
+
+}
+
+#cont-cards .info-cards p{
+	font-size: 0.7em;
+	color: hsl(236, 100%, 87%);
+}
+
+
+/* Especific cards
+-------------------*/
+
+#cont-cards #cont-work{
+	background: hsl(15, 100%, 70%);
+	background-image: url(images/icon-work.svg);
+	background-repeat: no-repeat;
+	background-position:top right;
+
+} 
+
+		
+#cont-cards #cont-play{
+	background-color:  hsl(195, 74%, 62%);
+	background-image: url(images/icon-play.svg);
+	background-repeat: no-repeat;
+	background-position:top right;
+
+} 
+
+#cont-cards #cont-study{
+	background-color: hsl(348, 100%, 68%);
+	background-image: url(images/icon-study.svg);
+	background-repeat: no-repeat;
+	background-position:top right;
+
+}
+#cont-cards #cont-ex{
+	background-color: hsl(145, 58%, 55%);
+	background-image: url(images/icon-exercise.svg);
+	background-repeat: no-repeat;
+	background-position:top right;
+} 
+#cont-cards #cont-soc {
+	background-color:hsl(264, 64%, 52%);
+	background-image: url(images/icon-social.svg);
+	background-repeat: no-repeat;
+	background-position:top right;
+
+}
+#cont-cards #cont-self{
+	background-color: hsl(43, 84%, 65%);
+	background-image: url(images/icon-self-care.svg);
+	background-repeat: no-repeat;
+	background-position:top right;
+}
